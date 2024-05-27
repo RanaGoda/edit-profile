@@ -1,0 +1,40 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+  
+}
+body{
+    margin-top:-20px;
+    background:#f8f8f8
+}
+.bar{
+    margin:0 90px 0 90px;
+    margin-top: 30px;
+
+    
+}
+.rounded-circle{
+    text-align: center;
+    border: 1px solid  #0d6efd;
+}
+.photo{
+    text-align: center;
+    display: grid;
+    place-items: center;
+    z-index:auto;
+}
+.r{
+    text-align: center;
+    position: absolute;
+   border-radius: 100px;
+   background-color:  #0d6efd;
+   border: none;
+   width: 50px;
+   height: 50px;
+   place-items: center;
+   margin: -70px 0px 0px 70px ;
+}
+.fa{
+    color:#fff;
+}
